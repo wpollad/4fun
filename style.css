@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shadow {
+    position: absolute;
+    height: 90px;
+    z-index: 0;
+}
+.car {
+    position: absolute;
+    height: 90px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+.print {
+    position: absolute;
+    height: 90px;
+    z-index: -1;
+}
+.head {
+    position: absolute;
+    height: 90px;
+    z-index: -1;
+}
+.closed{
+    display: none;
+}
+.open{
+    display: none;
+}
+.print{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+
