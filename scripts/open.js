@@ -16,3 +16,4 @@ openCar.addEventListener('click', ()=>{
         print.classList.add('active');
     }
 })
+
