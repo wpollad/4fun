@@ -1,12 +1,19 @@
+
 img{
     width: 95vw;
 }
 .shadow {
     width: 10px;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
 }
-.car {
+.car{
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+.staticcar {
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -20,6 +27,19 @@ img{
     position: absolute;
     z-index: -1;
 }
+.wheel{
+    position: absolute;
+    z-index: 0;
+}
+.first{
+    display: none;
+}
+.second{
+    display: none;
+}
+.third{
+    display: none;
+}
 .closed{
     display: none;
 }
@@ -29,8 +49,12 @@ img{
 .print{
     display: none;
 }
+.inactive{
+    display: none;
+}
 .active{
     display: block;
 }
+
 
 
