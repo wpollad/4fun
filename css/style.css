@@ -3,41 +3,35 @@ img{
     width: 95vw;
 }
 .shadow {
-    width: 10px;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 .car{
     position: absolute;
     cursor: pointer;
-    user-select: none;
-    z-index: 1;
-}
-.staticcar {
-    position: absolute;
-    cursor: pointer;
-    user-select: none;
     z-index: 1;
 }
 .print {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
 }
 .head {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
 }
-.wheel{
+.close{
+    position: absolute;
+    z-index: 1;
+}
+.frontwheel{
     position: absolute;
     z-index: 0;
 }
-.first{
-    display: none;
-}
-.second{
-    display: none;
-}
-.third{
+.backwheel{
+    position: absolute;
+    z-index: 0;
+} 
+.close{
     display: none;
 }
 .closed{
@@ -47,9 +41,6 @@ img{
     display: none;
 }
 .print{
-    display: none;
-}
-.inactive{
     display: none;
 }
 .active{

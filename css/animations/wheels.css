@@ -1,54 +1,26 @@
-.first{
-    animation-duration: 4s;
-    animation-name: wheel1;
+.frontwheel{
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: front;
     animation-iteration-count: infinite;
-    display: block;
-
+    animation-timing-function: linear;
+    transform-origin: 32.1% 79.5%;
 }
-@keyframes wheel1 {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
+@keyframes front {
     100%{
-        opacity: 0;
+        transform: rotate(-360deg);
     }
 }
-.second{
-    animation-duration: 0.5s;
-    animation-name: wheel2;
+.backwheel{
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: back;
     animation-iteration-count: infinite;
-    display: block;
-
+    animation-timing-function: linear;
+    transform-origin: 80.5% 80%;
 }
-@keyframes wheel2 {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
+@keyframes back {
     100%{
-        opacity: 0;
-    }
-}
-.third{
-    animation-duration: 0.5s;
-    animation-name: wheel3;
-    animation-iteration-count: infinite;
-    display: block;
-
-}
-@keyframes wheel3 {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
+        transform: rotate(-360deg);
     }
 }
