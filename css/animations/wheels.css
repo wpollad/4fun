@@ -1,0 +1,21 @@
+.frontwheel{
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 32.1% 79.5%;
+}
+.backwheel{
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 80.5% 80.5%;
+}
+@keyframes rotation {
+    100%{
+        transform: rotate(-360deg);
+    }
+}

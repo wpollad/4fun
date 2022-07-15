@@ -1,0 +1,52 @@
+
+img{
+    width: 95vw;
+}
+.shadow {
+    position: absolute;
+    z-index: 1;
+}
+.car{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.print {
+    position: absolute;
+    z-index: 0;
+}
+.head {
+    position: absolute;
+    z-index: 0;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.frontwheel{
+    position: absolute;
+    z-index: 0;
+}
+.backwheel{
+    position: absolute;
+    z-index: 0;
+} 
+.close{
+    display: none;
+}
+.closed{
+    display: none;
+}
+.open{
+    display: none;
+}
+.print{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+
+
