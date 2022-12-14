@@ -1,3 +1,3 @@
 # chill
-wpollad.github.io/chill
-кот едет в машине
+https://wpollad.github.io/chill \
+Кот едет в машине)
